@@ -1,0 +1,9 @@
+doctype html
+html(lang="zh-cn")
+	head
+		title Hello World
+	body
+		#content
+		each script in externalScripts
+			script(src=script,type='text/javascript')
+		script(src=entry,type='text/javascript')
